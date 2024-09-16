@@ -1,0 +1,226 @@
+form{
+    border: 1px solid;
+    width: 65%;
+    margin: auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+    background-image: url("background.jpg");
+
+    
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+#ing{
+    
+    margin-bottom: 2%;
+    margin-right: 5%;
+
+}
+
+
+#medi{
+    margin-right: 20%;
+}
+
+#seat_no{
+    margin-left: 67px;
+    margin-bottom: 5px;
+    width: 35%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+}
+
+#name{
+    margin-left: 83px;
+    margin-bottom: 5px;
+    width: 35%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+}
+
+#father_name{
+    margin-bottom: 5px;
+    margin-left: 13px;
+    width: 35%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+}
+
+#surname{
+    margin-bottom: 5px;
+    margin-left: 56px;
+    width: 35%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+}
+
+#institute{
+    margin-bottom: 5px;
+    margin-left: 50.5px;
+    width: 35%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+}
+
+#district{
+    margin-bottom: 5px;
+    margin-left: 59.5px;
+    width: 35%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+}
+
+#container{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+
+}
+
+
+
+#main_sb_box{
+    border: 1px solid;
+    text-align: center;
+    width: 18.8%;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    background: none;
+    border-radius: 5px;
+    
+}
+
+.full_subject{
+    border: 1px solid;
+    width: 18.8%;
+    height: 35px;
+    padding-bottom: -15px;
+    display: inline-block;
+}
+
+
+#max_mark{
+    border: 1px solid;
+    text-align: center;
+    width: 10.4%;
+    
+    margin-left: 2%;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#fistY_thmark{
+    border: 1px solid;
+    text-align: center;
+    
+    width: 9.7%;
+ 
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#firstY_prmark{
+    border: 1px solid;
+    text-align: center;
+    width: 9.8%;
+
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#inter_th{
+    border: 1px solid;
+    text-align: center;
+    width: 9.6%;
+    
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#inter_pr{
+    border: 1px solid;
+    text-align: center;
+    width: 9.7%;
+    
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/* #obtained_ma_box{
+    border: 1px solid;
+    text-align: center;
+    width: 13%;
+    margin: 2px;
+} */
+
+.marks{
+    height: 35px;
+    width: 10%;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    
+    outline: none;
+}
+
+/* .obMark{
+    border: 5px solid;
+    height: 30px;
+    width: 15%;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 6px;
+    outline: none;
+
+
+} */
+
+/* .subject_boxes{
+    height: 30px;
+    width: 16%;
+    outline: none;
+} */
+
+
+
+
+
+
+
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+}
