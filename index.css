@@ -6,10 +6,11 @@ form{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 25px 0px 25px 0px;
+    padding: 25px 0px 40px 0px;
     background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    
 }
 
 h3{
@@ -29,7 +30,20 @@ h3{
     margin-right: 20%;
 }
 
+#group{
+    border: 2px solid;
+   height: 30px;
+   width: 35.8%;
+   margin-right: 6px;
+   background: none;
+   border-color: red;
+   border-radius: 5px;
+
+}
+
+
 #seat_no{
+    border-color: red;
     margin-left: 67px;
     margin-bottom: 5px;
     width: 35%;
@@ -40,6 +54,7 @@ h3{
 }
 
 #name{
+    border-color: red;
     margin-left: 83px;
     margin-bottom: 5px;
     width: 35%;
@@ -50,6 +65,7 @@ h3{
 }
 
 #father_name{
+    border-color: red;
     margin-bottom: 5px;
     margin-left: 13px;
     width: 35%;
@@ -60,6 +76,7 @@ h3{
 }
 
 #surname{
+    border-color: red;
     margin-bottom: 5px;
     margin-left: 56px;
     width: 35%;
@@ -70,6 +87,7 @@ h3{
 }
 
 #institute{
+    border-color: red;
     margin-bottom: 5px;
     margin-left: 50.5px;
     width: 35%;
@@ -80,6 +98,7 @@ h3{
 }
 
 #district{
+    border-color: red;
     margin-bottom: 5px;
     margin-left: 59.5px;
     width: 35%;
@@ -92,41 +111,62 @@ h3{
 #container{
     display: flex;
     height: 60px;
-    justify-content: center;
+    margin-left: 6.6%;
+    
+    
+
+    
 
 }
 
 
 
 #main_sb_box{
-    border: 1px solid;
+    border: 2px solid;
+    border-color: red;
     text-align: center;
-    width: 18.8%;
-    
+    width: 20%;
     justify-content: center;
     display: flex;
     align-items: center;
-    
     background: none;
     border-radius: 5px;
+    /* position: relative; */
+
     
 }
+
+/* .full_subject{
+    border: 2px solid;
+    border-color: red;
+    width: 19%;
+    height: 38.4px;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    flex-direction: row;
+    bottom: 9.1px;
+    
+} */
 
 .full_subject{
-    border: 1px solid;
-    width: 18.8%;
-    height: 35px;
-    padding-bottom: -15px;
-    display: inline-block;
+    width: 18.4%;
+    height: 33px;
+    outline: none;
+    margin-left: 1px;
+    background: none;
+    border-color: red;
+    border-radius: 5px;
+
 }
 
-
 #max_mark{
-    border: 1px solid;
+    border: 2px solid;
+    border-color: red;
     text-align: center;
-    width: 10.4%;
-    
-    margin-left: 2%;
+    width: 12%;
+    margin-left: 1%;
     border-radius: 5px;
     justify-content: center;
     display: flex;
@@ -134,11 +174,11 @@ h3{
 }
 
 #fistY_thmark{
-    border: 1px solid;
+    border: 2px solid;
+    border-color: red;
     text-align: center;
-    
-    width: 9.7%;
- 
+    width: 12%;
+    margin-left: 2.3%;
     border-radius: 5px;
     justify-content: center;
     display: flex;
@@ -146,10 +186,11 @@ h3{
 }
 
 #firstY_prmark{
-    border: 1px solid;
+    border: 2px solid;
+    border-color: red;
     text-align: center;
-    width: 9.8%;
-
+    width: 12%;
+    margin-left: 2.3%;
     border-radius: 5px;
     justify-content: center;
     display: flex;
@@ -157,10 +198,11 @@ h3{
 }
 
 #inter_th{
-    border: 1px solid;
+    border: 2px solid;
+    border-color: red;
     text-align: center;
-    width: 9.6%;
-    
+    width: 12%;
+    margin-left: 2.2%;
     border-radius: 5px;
     justify-content: center;
     display: flex;
@@ -168,50 +210,32 @@ h3{
 }
 
 #inter_pr{
-    border: 1px solid;
+    border: 2px solid;
+    border-color: red;
     text-align: center;
-    width: 9.7%;
-    
+    width: 12%;
+    margin-left: 2.2%;
     border-radius: 5px;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
-/* #obtained_ma_box{
-    border: 1px solid;
-    text-align: center;
-    width: 13%;
-    margin: 2px;
-} */
+
 
 .marks{
     height: 35px;
-    width: 10%;
-    font-size: 12px;
+    width: 11%;
+    font-size: 17px;
     text-align: center;
     margin-top: 20px;
-    
+    border-radius: 5px;
+    border-color: red;
     outline: none;
+    background: none;
+    margin-right: 1%;
+    margin-left: 0.5%;
 }
-
-/* .obMark{
-    border: 5px solid;
-    height: 30px;
-    width: 15%;
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 6px;
-    outline: none;
-
-
-} */
-
-/* .subject_boxes{
-    height: 30px;
-    width: 16%;
-    outline: none;
-} */
 
 
 
